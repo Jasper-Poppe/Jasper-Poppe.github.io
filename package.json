@@ -1,0 +1,29 @@
+{
+  "name": "portfolio_website",
+  "version": "1.0.0",
+  "description": "Program to generate my portfolio website dynamically and modular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jasper-Poppe/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "pug",
+    "nodejs",
+    "html",
+    "bootstrap"
+  ],
+  "author": "Jasper Poppe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jasper-Poppe/portfolio/issues"
+  },
+  "homepage": "https://github.com/Jasper-Poppe/portfolio#readme",
+  "dependencies": {
+    "pug": "^2.0.4"
+  }
+}

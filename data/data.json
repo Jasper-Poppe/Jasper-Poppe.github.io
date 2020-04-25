@@ -1,0 +1,169 @@
+{
+    "Interests": [{
+            "Icon": "gamedev.svg",
+            "Name": "Game development"
+        },
+        {
+            "Icon": "ai.svg",
+            "Name": "Artifical intelligence"
+        },
+        {
+            "Icon": "jogging.svg",
+            "Name": "Jogging"
+        },
+        {
+            "Icon": "linux.svg",
+            "Name": "Linux window managers"
+        },
+        {
+            "Icon": "encryption.svg",
+            "Name": "Hashing and encryption"
+        },
+        {
+            "Icon": "nodejs.svg",
+            "Name": "Website development"
+        }
+    ],
+    "PersonalInformation": {
+        "BirthInfo": {
+            "Day": 6,
+            "Month": 4,
+            "Year": 1999
+        },
+        "Location": "East-flanders, Belgium",
+        "ContactInfo": {
+            "Email": "jasper.poppe@posteo.net",
+            "Github": "https://github.com/jasper-poppe",
+            "Leetcode": "https://leetcode.com/jasperpoppe/",
+            "Linkedin": "https://www.linkedin.com/in/jasper-poppe-b785501a7/",
+            "MobilePhoneNumber": "+320483410451",
+            "CV": "CV.pdf",
+            "Websites": [{
+                "Link": "https://www.wulfish.tech",
+                "Name": "Wulfish"
+            }]
+        },
+        "Name": {
+            "Firstname": "Jasper",
+            "Lastname": "Poppe"
+        },
+        "Picture": "profilepicture.jpeg"
+    },
+    "Projects": [{
+        "Completed": "",
+        "Name": "",
+        "Type": ""
+    }],
+    "Sections": [
+        "Personal Information",
+        "Skills",
+        "Projects",
+        "Interests"
+    ],
+    "Skills": [{
+            "Link": "https://www.mysql.com/",
+            "Logo": "mysql.svg",
+            "Name": "MySQL"
+        },
+        {
+            "Link": "https://www.microsoft.com/sqlserver",
+            "Logo": "sqlserver.svg",
+            "Name": "SQL Server"
+        },
+        {
+            "Link": "https://www.adobe.com/photoshop",
+            "Logo": "photoshop.svg",
+            "Name": "Adobe Photoshop"
+        },
+        {
+            "Link": "https://www.adobe.com/premiere",
+            "Logo": "premiere.svg",
+            "Name": "Adobe Premiere"
+        },
+        {
+            "Link": "https://www.java.com/en/",
+            "Logo": "java.svg",
+            "Name": "Java"
+        },
+        {
+            "Link": "https://www.python.org/",
+            "Logo": "python.svg",
+            "Name": "Python"
+        },
+        {
+            "Link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+            "Logo": "csharp.svg",
+            "Name": "C#"
+        },
+        {
+            "Link": "https://git-scm.com/",
+            "Logo": "git.svg",
+            "Name": "Git"
+        },
+        {
+            "Link": "https://getbootstrap.com/",
+            "Logo": "bootstrap.svg",
+            "Name": "Bootstrap"
+        },
+        {
+            "Link": "https://www.linuxfoundation.org/",
+            "Logo": "linux.svg",
+            "Name": "Linux"
+        },
+        {
+            "Link": "https://www.vim.org/",
+            "Logo": "vim.svg",
+            "Name": "Vim"
+        },
+        {
+            "Link": "http://coreos.com/",
+            "Logo": "coreos.svg",
+            "Name": "CoreOs"
+        },
+        {
+            "Link": "https://www.gnu.org/software/bash/",
+            "Logo": "bash.svg",
+            "Name": "Bash"
+        },
+        {
+            "Link": "https://www.w3.org/TR/html52/",
+            "Logo": "html.svg",
+            "Name": "HTML"
+        },
+        {
+            "Link": "https://www.ecma-international.org/ecma-262/10.0/index.html",
+            "Logo": "pug.svg",
+            "Name": "Pug"
+        },
+        {
+            "Link": "https://www.ecma-international.org/ecma-262/10.0/index.html",
+            "Logo": "nodejs.svg",
+            "Name": "Nodejs"
+        },
+        {
+            "Link": "https://www.ecma-international.org/ecma-262/10.0/index.html",
+            "Logo": "javascript.svg",
+            "Name": "Javascript"
+        },
+        {
+            "Link": "https://sass-lang.com/",
+            "Logo": "sass.svg",
+            "Name": "SASS"
+        },
+        {
+            "Link": "https://www.microsoft.com/nl-be/cloud-platform/windows-server",
+            "Logo": "windowsserver.svg",
+            "Name": "Windows Server"
+        },
+        {
+            "Link": "https://www.r-project.org/",
+            "Logo": "r.svg",
+            "Name": "R"
+        },
+        {
+            "Link": "https://dotnet.microsoft.com/",
+            "Logo": "dotnetcore.svg",
+            "Name": ".Net"
+        }
+    ]
+}

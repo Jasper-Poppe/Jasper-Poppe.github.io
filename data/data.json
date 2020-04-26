@@ -31,13 +31,13 @@
             "Year": 1999
         },
         "Location": "East-flanders, Belgium",
+        "CV": "CV.pdf",
         "ContactInfo": {
             "Email": "jasper.poppe@posteo.net",
             "Github": "https://github.com/jasper-poppe",
             "Leetcode": "https://leetcode.com/jasperpoppe/",
             "Linkedin": "https://www.linkedin.com/in/jasper-poppe-b785501a7/",
             "MobilePhoneNumber": "+320483410451",
-            "CV": "CV.pdf",
             "Websites": [{
                 "Link": "https://www.wulfish.tech",
                 "Name": "Wulfish"

@@ -1,0 +1,15 @@
+mixin ImgThumbnail(title, img, link)
+  div(class="card col-6 col-md-3 align-items-center text-center border-0 my-4") 
+    a(href=link class="text-dark")
+      div(class="container")
+        img(src="data/images/" + img class="card-img-top img-tumbnail" alt=title + " logo" style="width: 100px; height: 100px;") 
+      div(class="card-body")
+        h5(class="card-title")= title
+
+mixin Skills(items)
+  each item in items
+    +ImgThumbnail(item.Name, item.Logo, item.Link)
+
+mixin Interests(items)
+  each item in items
+    +ImgThumbnail(item.Name, item.Icon, "#Interests")

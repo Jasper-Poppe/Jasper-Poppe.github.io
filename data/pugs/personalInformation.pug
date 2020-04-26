@@ -1,0 +1,31 @@
+mixin PersonalInformation(info)
+  div(class="container col-12 col-md-6 mb-md-0 mb-5")
+    img(src="data/images/" + info.Picture alt="Profile picture" style="border-radius:20px; width:auto; height:auto; max-width: 350px; max-height: 350px;")
+  div(class="container col-12 col-md-6")
+    +rowinfo("Name", info.Name.Firstname + " " + info.Name.Lastname)
+    +rowinfo("Birthdate", "0" + info.BirthInfo.Day + "/" + "0" + info.BirthInfo.Month + "/" + info.BirthInfo.Year)
+    +rowinfo("Location", info.Location)
+    +rowinfo("Email address")
+      h5: a(href="mailto:" + info.ContactInfo.Email)=  info.ContactInfo.Email
+    +rowinfo("Phone number", info.ContactInfo.MobilePhoneNumber)
+    +rowinfo("Curriculum vitae")
+      h5: a(href="data/" + info.CV download="Curriculum vitae - Jasper Poppe")= "CV"
+    +rowinfo("Linkedin")
+      h5: a(href=info.ContactInfo.Linkedin)= "Linkedin profile"
+    +rowinfo("Github")
+      h5: a(href=info.ContactInfo.Github)= "Github profile"
+    +rowinfo("Leetcode")
+      h5: a(href=info.ContactInfo.Leetcode)= "Leetcode profile"
+    each website in info.ContactInfo.Websites
+      +rowinfo(website.Name + " website")
+        h5: a(href=website.Link)= website.Name
+
+mixin rowinfo(key, value)
+  div(class="row my-3")
+    div(class="col-md-6 col-12 text-left")
+      h5= key + ":"
+    div(class="col-md-6 col-12 text-center text-md-left")
+      if value
+        h5=value
+      else
+        block
